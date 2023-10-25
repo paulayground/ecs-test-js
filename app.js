@@ -2,7 +2,7 @@ const app = require("express")();
 
 app.get("/", (req, res) => {
   res.json({
-    message: true,
+    message: "hello!!!!",
   });
 });
 
